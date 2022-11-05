@@ -31,6 +31,9 @@ body{
     min-height: 100vh;
     background-color: var(--body-color);
     transition: var(--tran-05);
+    text-align: center;
+    overflow: hidden;
+    display: none;
 }
 
 ::selection{
@@ -38,13 +41,13 @@ body{
     color: #fff;
 }
 
-body.dark{
-    --body-color: #18191a;
+--body-color: #18191a;
     --sidebar-color: #242526;
     --primary-color: #3a3b3c;
     --primary-color-light: #3a3b3c;
     --toggle-color: #fff;
     --text-color: #ccc;
+    --primary-text-color: #ccc;
 }
 
 /* ===== Sidebar ===== */
